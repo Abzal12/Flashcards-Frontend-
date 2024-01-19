@@ -1,0 +1,42 @@
+body {
+    background-image: url("world.png");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    padding-left: 500px;
+}
+
+h1 {
+    font-family: Century, fantasy;
+}
+
+#mainOne {
+
+    justify-items: center;
+    width: 500px;
+    display: grid;
+    gap: 100px;
+    grid-template-areas:
+        "Cristiano  Suares  Salah"
+        "Iniesta  DeBruyne  Modric"
+        "VanDijk  Chiellini  Ramos";
+}
+
+.card1 { grid-area: Cristiano; }
+.card2 { grid-area: Suares }
+.card3 { grid-area: Salah }
+.card4 { grid-area: Modric }
+.card5 { grid-area: DeBruyne }
+.card6 { grid-area: Iniesta }
+.card7 { grid-area: Ramos }
+.card8 { grid-area: Chiellini }
+.card9 { grid-area: VanDijk }
+
+.card {
+    background: #ffe6af;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: #4c1bff;
+    font-family: DialogInput, ui-serif;
+}
+/* Grid ITEMS */
